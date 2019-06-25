@@ -1,23 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <header className="App-header tac">
+        <img src={logo} alt="logo" className="h200" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Not A Serious Application
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p className="text-small w500">
+          Of course this is a simplistic view of an application.
+          Many of the problems we encounter are when dealing with complex situations,
+          but my hope is that this will be a proving ground for simplifying complex things.
+          To be used when needed to express a new pattern or organization thought.
+        </p>
       </header>
     </div>
   );
