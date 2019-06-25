@@ -13,4 +13,5 @@
 .text-small { font-size: 14px; }
 .w500 { width: 500px; }
 .h200 { height: 200px; }
+.mt100{ margin-top: 100px; }
 .pointer-events-none { pointer-events: none; }
