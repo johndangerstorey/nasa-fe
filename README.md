@@ -1,4 +1,4 @@
-## Not A Serious Application
+# Not A Serious Application
 Many of the problems we encounter are when dealing with complex situations,
 but my hope is that this will be a proving ground for simplifying complex things.
 To be used when needed to express a new pattern or organization thought.
