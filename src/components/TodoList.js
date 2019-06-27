@@ -9,6 +9,8 @@ export default function(){
   return <div>
     <input ref={input} />
     <button onClick={handleClick}>create</button>
-    {todoList.map(todo => <div key={todo}>{todo}</div>)}
+    <ol>
+      {todoList.map(todo => <li key={todo}>{todo}</li>)}
+    </ol>
   </div> 
 }
